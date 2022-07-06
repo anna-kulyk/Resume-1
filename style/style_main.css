@@ -1,0 +1,66 @@
+.profile_info {
+    margin: 160px 0 90px 90px;
+}
+
+.profile_name {
+    color: #231f20;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.profile_name span {
+    font-weight: 700;
+}
+
+.profile_profession {
+    font-size: 22px;
+    font-weight: 600;
+    color: #8f9193;
+}
+
+.main_section {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.main_section__title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4e5da9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.main_section__text {
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8f9193;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.position_date_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.position {
+    color: #231f20;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.company_name {
+    color: #231f20;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.date {
+    color: #4f5da9;
+    font-size: 18px;
+    font-weight: bold;
+}

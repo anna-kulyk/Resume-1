@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1250px;
+    min-height: 1744px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/мал\ фон\ .png), url(../img/фон.png);
+    background-position: left top, bottom right;
+    background-size: auto 100%, 100% 100%;
+    background-repeat: no-repeat;
+    padding-left: 110px;
+    position: relative;
+}
+
+.triangle {
+    width: 60px;
+    position: absolute;
+    left: 95px;
+    top: 170px;
+}
+
+.main_section_wrapper {
+    display: flex;
+}
+
+.experience::after {
+    content: "";
+    display: block;
+    background-color: #c6c8ca;
+    height: 3px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.programs {
+    padding-top: 30px;
+    padding-right: 50px;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main_section__content__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 130px;
+    height: 4px;
+    background: linear-gradient(to right, #4f5daa 50%, #e9e9ea 50%);
+    border-radius: 2px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #4e5ca9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background: #4e5ca9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feedback_wrapper {
+    display: flex;
+}
+
+.feedback_column {
+    width: 485px;
+    padding-right: 90px;
+}
+
+.feedback__name {
+    color: #314a9f;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
+    letter-spacing: -2px;
+}
+
+.main__nav {
+    padding-top: 70px;
+    padding-right: 180px;
+    color: #231f20;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main__nav a {
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #4e5da9;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 20px;
+}
